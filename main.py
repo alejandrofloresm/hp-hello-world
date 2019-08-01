@@ -18,3 +18,11 @@ print("-",i_am_string,"- es una cadena (string)")
 # Boolean
 i_am_bool = True
 print(i_am_bool, "es un booleano (bool)")
+
+# Ejemplo de una función
+def get_total_price(price_without_taxes):
+  return price_without_taxes * 1.16
+
+price_without_taxes = 15.5
+total = get_total_price(price_without_taxes)
+print(total, "es el precio considerando los impuestos")
