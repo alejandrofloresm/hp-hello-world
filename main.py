@@ -26,3 +26,10 @@ def get_total_price(price_without_taxes):
 price_without_taxes = 15.5
 total = get_total_price(price_without_taxes)
 print(total, "es el precio considerando los impuestos")
+
+# Manejo del input del usuario
+print("¿Cuál es tu nombre?")
+user_name = input()
+print("¿Cuánto cuesta un kg de aguacate?")
+avocado_price = float(input())
+print("El nombre del usuario es:", user_name, "el kg de aguacate cuesta:", avocado_price)
