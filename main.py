@@ -33,3 +33,26 @@ user_name = input()
 print("¿Cuánto cuesta un kg de aguacate?")
 avocado_price = float(input())
 print("El nombre del usuario es:", user_name, "el kg de aguacate cuesta:", avocado_price)
+
+# Condicionales
+print("Escribe un número:")
+number_a = float(input())
+print("Escribe un segundo número:")
+number_b = float(input())
+
+if (number_a > number_b):
+  print("El primer número es más grande que el segundo")
+elif (number_b > number_a):
+  print("El segundo número es más grande que el primero")
+else:
+  print("Los números son iguales")
+
+# Ejemplo con un operador AND
+name = "Clark"
+last_name = "Kent"
+if (name == "Bruce" and last_name == "Wayne"):
+  print("Is Batman!")
+
+# Ejemplo con un operador OR
+if (name == "Bruce" or name == "Clark"):
+  print("It may be a superhero!")
